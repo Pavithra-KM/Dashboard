@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-const Dashboard = React.lazy(() => import('./Dashboard'));
+const Dashboard = React.lazy(() => import('../components/Dashboard'));
 
 function WebpageRoutes() {
     return (
