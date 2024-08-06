@@ -1,0 +1,128 @@
+.orderedIcon {
+  border: 1px solid #cecef1;
+  background: #cecef1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.deliveredIcon {
+  border: 1px solid #b5dcb5;
+  background: #b5dcb5;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cancelledIcon {
+  border: 1px solid #edb4b4;
+  background: #edb4b4;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.revenueIcon {
+  border: 1px solid #e9d984;
+  background: #e9d984;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.goalsIcon {
+  border: 1px solid #edb4b4;
+  background: #edb4b4;
+  padding: 20px;
+  border-radius: 50%;
+  color: #ff0014;
+}
+
+.popularDishesIcon {
+  border: 1px solid #cecef1;
+  background: #cecef1;
+  padding: 20px;
+  border-radius: 50%;
+  color: blue;
+}
+
+.menusIcon {
+  border: 1px solid #b5dcb5;
+  background: #b5dcb5;
+  padding: 20px;
+  border-radius: 50%;
+  color: green;
+}
+
+.feedbackCard {
+  max-height: 330px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.circleBarWidth {
+  width: 30%;
+}
+
+.leftNavBar {
+  transition: 0.6s;
+  position: fixed;
+  z-index: 100;
+  white-space: nowrap;
+  width: 50px;
+  height: 100vh;
+}
+
+.mainContentDiv {
+  margin-left: 50px;
+  transition: 0.6s;
+  overflow-x: hidden;
+}
+
+.maincontent {
+  margin-top: 60px;
+}
+
+.card {
+  box-shadow: 0 6px 12px rgb(140 152 164 / 8%);
+  border-color: rgba(0, 0, 0, 0.075);
+  border-radius: .50rem;
+}
+
+.bodyColor {
+  background-color: #f4f4f4;
+}
+
+.navbarLastIcon {
+  position: absolute;
+  bottom: 0;
+}
+
+.navbarHeader {
+  height: 50px;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  padding-right: 50px;
+}
+
+.navbarIcons {
+  border: 1px solid #a29f9f;
+  background: #a29f9f;
+  padding: 6px;
+  border-radius: 50%;
+  color: #4b4747;
+}
+
+.searchBar {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.outline-none {
+  outline: none !important;
+}
+
+.searchInput {
+  height: 30px;
+}
+
+.tableWidth {
+  min-width: 300px;
+}
