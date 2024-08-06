@@ -6,7 +6,7 @@ function WebpageRoutes() {
     return (
         <BrowserRouter basename="/">
             <Routes>
-                <Route path="/dashboard"
+                <Route path="/"
                     element={
                         <React.Suspense fallback={<></>}>
                             <Dashboard />
